@@ -317,9 +317,6 @@ ul li a:hover {
   color: #a855f7;
 }
 
-
-
-
 @media (width < 750px) {
   nav .checkbox {
     display: block;
@@ -351,11 +348,23 @@ ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .section__container1 {
+    padding: 10rem 1rem 5rem 1rem;
+    text-align: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
   .image {
     grid-area: 1/1/2/2;
   }
 
   .action__btns {
     margin: auto;
+  }
+
+  .action__btns1 button {
+    width: 80%;
+    font-size: 1rem;
+    padding: 1rem;
   }
 }
